@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "https://proyect-shield-check.onrender.com/api/:path*" },
+    { "source": "/uploads/:path*", "destination": "https://proyect-shield-check.onrender.com/uploads/:path*" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
